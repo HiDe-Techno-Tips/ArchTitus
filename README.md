@@ -1,3 +1,20 @@
+# Resurrecting Project 
+
+I'm changing the scope of the project to only do minimal installs and no longer offer the options for the install script. As the official arch install script has become better this one is no longer needed. However, I still want a script that installs my two flavors of arch. 
+
+- DWM + Xorg
+- Hyprland + Wayland
+
+This is currently a work in progress and check the branchs for the old versions.
+
+New single command quicklaunch
+
+```
+bash <(curl -L christitus.com/archtitus)
+```
+
+Old Script with all the customizations is located in the (all-in-one-2022 branch) here: <https://github.com/ChrisTitusTech/ArchTitus/tree/all-in-one-2022-script>
+
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
@@ -6,11 +23,9 @@
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
 
 ---
-## Create Arch ISO or Use Image
+## Create Arch ISO 
 
-Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
-
-If you don't want to build using this script I did create an image @ <https://www.christitus.com/arch-titus>
+Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/).
 
 ## Boot Arch ISO
 
@@ -62,3 +77,7 @@ An issue is easier to resolve if it contains a few important pieces of informati
 
 - Original packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic
 - Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: <https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg>
+
+## GitHub Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/ab6e7aa2540b5510906424e555a6773dfc3a76af.svg "Repobeats analytics image")
